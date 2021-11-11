@@ -1,0 +1,45 @@
+.Sidebar-menu {
+    position: fixed;
+}
+.Sidebar-menu__items {
+    font-size: 20px;
+    color: #0f1419;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 13px;
+}
+
+.Sidebar-menu__items:hover {
+    background: rgba(29, 161, 242, 0.1);
+    color: #1d9bf0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Sidebar-menu__items--active {
+    color: #1d9bf0;
+    font-weight: 700;
+} 
+
+
+.Sidebar-menu__items-icon {
+    height: 26px;
+    margin-right: 20px;
+}
+
+.Sidebar-menu__items--active .Sidebar-menu__items-icon {
+    filter: invert(66%) sepia(44%) saturate(7067%) hue-rotate(179deg) brightness(98%) contrast(92%);
+}
+
+.sidebar_tweet {
+    width: 100%;
+    background-color: #1d9bf0;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 50px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,15 @@
+.layout {
+    display: grid;
+    grid-template-columns: 260px auto 350px;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+.layout__right-sidebar {
+    position: fixed;
+    width: 350px;
+}
+
+.layout__left-sidebar {
+    position: fixed;
+    width: 350px;
+}

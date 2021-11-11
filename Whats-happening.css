@@ -1,0 +1,39 @@
+.Whats-happening {
+    border-radius: 15px;
+    background: #f5f8fa;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.Whats-happening__block {
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+}
+
+.Whats-happening__block:hover {
+    background: rgba(29, 161, 242, 0.1);
+}
+
+.Whats-happening__block {
+    border-bottom: none;
+}
+
+.Whats-happening__heading {
+    font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+}
+
+.Whats-happening__meta-information {
+    font-size: 13px;
+    font-weight: 400;
+    color: #88949d;
+}
+
+.Whats-happening__trend-name {
+    font-size: 15px;
+    color: #14171a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
